@@ -1,0 +1,27 @@
+var data=[
+	{
+		id:1,
+		pid:0,
+		name:'JS'
+	},
+	{
+		id:2,
+		pid:0,
+		name:'HTML'
+	},
+	{
+		id:3,
+		pid:0,
+		name:'CSS'
+	},
+	{
+		id:4,
+		pid:1,
+		name:'JS基础'
+	},
+	{
+		id:5,
+		pid:2,
+		name:'HTML基础'
+	}
+]

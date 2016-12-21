@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>奋斗牛牛云盘</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+	<!-- 最上头 -->
+	<div class="title clearfix">
+		<p class="t-left fl">奋斗牛牛云盘</p>
+		<p class="t-right fr">
+			<img src="img/2.jpg" alt="">
+			<span>xiao</span>
+		</p>
+	</div>
+	<div class="list">
+		<ul class="fl">
+			<li id="downLoad">
+				<span class="list-l-s1 sprit"></span>
+				<a href="javascript:;">下载</a>
+			</li>
+			<li id="share">
+				<span class="list-l-s2 sprit"></span>
+				<a href="javascript:;">分享</a>
+			</li>
+			<li id="newfile">
+				<span class="list-l-s3 sprit"></span>
+				<a href="javascript:;">新建文件夹</a>
+			</li>
+			<li id="rename">
+				<span class="list-l-s4 sprit"></span>
+				<a href="javascript:;">重命名</a>
+			</li>
+			<li id="delete">
+				<span class="list-l-s5 sprit"></span>
+				<a href="javascript:;">删除</a>
+			</li>
+			<li id="moveto">
+				<span class="list-l-s6 sprit"></span>
+				<a href="javascript:;">移动到</a>
+			</li>
+		</ul>
+		<ul class="fr">
+			<li class="conversion fl">
+				<span class="list-r-s1 sprit"></span>
+			</li>
+			<li class="fl">
+				<span class="list-r-s2 sprit"></span>
+				<span class="list-r-s3 sprit"></span>
+			</li>
+		</ul>	
+	</div>
+	<!-- content左边 树状图-->
+	<div class="content-left fl">
+		<div class="content-left-all">
+			<i class="sprit1 sprit"></i>
+			<i class="sprit2 sprit"></i>
+			<span>全部文件</span>
+		</div>
+		<ul id="treeElement">
+			<!-- <li>
+				<h2></h2>
+			</li> -->
+		</ul>
+	</div>
+
+	<!-- content右边 -->
+
+	<div class="content-right fl">
+		<div class="nav">
+			<a href="javascript:;"></a>
+			<span>全部文件</span>
+			<p class="search fr">
+				<input type="text" placeholder="请输入要查找的内容">
+				<button>搜索</button>
+			</p>
+		</div>
+		
+		<div id="folder">
+			<!-- 视图形式 -->
+			<ul id="folder-block" style="display:block">
+				<li>
+					<a style="display:none" href="javascript:;"></a>
+					<img src="img/list.png" alt="">
+					<p>JS</p>
+					<input style="display:none" type="text">
+				</li>
+			</ul>
+			<!-- 图标形式 -->
+			<ul id="folder-list" style="display:none">
+				<li>
+					<a style="display:block !importent" href="javascript:;"></a>
+					<img src="img/list.png" alt="">
+					<p>JS</p>
+					<input style="display:none" type="text">
+				</li>
+			</ul>
+		</div>
+		
+
+	</div>
+	<div id="tips"></div>
+	<div id="wrap">
+		<div class="mark"></div>
+		<div class="jiathis_style">
+			<a id="non" href="javascript:;">✖</a>
+		    <span class="jiathis_txt">分享到：</span>
+		    <a class="jiathis_button_qzone">QQ空间</a>
+		    <a class="jiathis_button_tsina">新浪微博</a>
+		    <a class="jiathis_button_tqq">腾讯微博</a>
+		    <a class="jiathis_button_weixin">微信</a>
+
+		    <a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+		    <a class="jiathis_counter_style"></a>
+		</div>
+	</div>
+	<script type="text/javascript" >
+	    var jiathis_config={
+	        hideMore:false
+	    }
+	</script>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+
+	<script src="js/jquery-3.1.1.js"></script>
+	<script src="js/data.js"></script>
+	<!-- // <script src="js/index.js"></script> -->
+	<script src="js/index1.js"></script>
+</body>
+</html>
